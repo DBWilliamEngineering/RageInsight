@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{9b702ee3-3c09-4b92-b82b-3156e4d19396}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="RageInsight.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptMain.cpp" />
+    <ClCompile Include="Application\Application.cpp" />
+    <ClCompile Include="Services\GameService.cpp" />
+    <ClCompile Include="Game\GameWorld.cpp" />
+    <ClCompile Include="Game\Player.cpp" />
+    <ClCompile Include="Game\Ped.cpp" />
+    <ClCompile Include="Services\InspectionService.cpp" />
+    <ClCompile Include="Inspection\EntityInspector.cpp" />
+    <ClCompile Include="Inspection\PedInspector.cpp" />
+    <ClCompile Include="Inspection\RaycastInspector.cpp" />
+    <ClCompile Include="Services\TelemetryService.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RageInsight.h" />
+    <ClInclude Include="pch.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptMain.h" />
+    <ClInclude Include="Application\Application.h" />
+    <ClInclude Include="Services\GameService.h" />
+    <ClInclude Include="Game\GameWorld.h" />
+    <ClInclude Include="Game\Player.h" />
+    <ClInclude Include="Game\Ped.h" />
+    <ClInclude Include="Services\InspectionService.h" />
+    <ClInclude Include="Inspection\EntityInspector.h" />
+    <ClInclude Include="Inspection\PedInspector.h" />
+    <ClInclude Include="Inspection\RaycastInspector.h" />
+    <ClInclude Include="Services\TelemetryService.h" />
+    <ClInclude Include="Core\CommandHandler.h" />
+  </ItemGroup>
+</Project>
